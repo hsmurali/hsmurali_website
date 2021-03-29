@@ -1,6 +1,6 @@
 ---
 layout: page
-title:   
+title: Projects  
 permalink: /projects/
 description: 
 nav: true
@@ -9,9 +9,9 @@ nav: true
 * * *
 
 ## Binnacle
-
+ More to come
 * * *
 
 ## PIRATE
-
+More to come
 * * *
