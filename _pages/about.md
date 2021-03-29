@@ -2,23 +2,22 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: Hari-Pic-2.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>3112 Brendan Iribe Center for Computer Science and Engineering</p>
+    <p>8125 Paint Branch Dr</p>
+    <p>College Park, MD 20783</p>
 
 news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+ I am Harihara Subrahmaniam Muralidharan, a 3<sup>rd</sup> year graduate student advised by [Prof. Mihai Pop](https://pop-lab.org){:target="_blank"} with the [department of computer science](https://cs.umd.edu){:target="_blank"} at the University of Maryland. I work in bioinfiormatics and computational biology with a focus in  computational genomics and metagenomics. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+ Prior to graduate school I spent 3 wonderful years at the TCS innovation labs at Chennai, India working on analytics for cyberphysical systems. I worked on building models for analyzing complex HVAC-R systems such as chillers and, buildings from their data foot prints. I had an opportunity to be mentored by Dr. Arunchandar Vasan, Dr. Venkatesh Sarangan and Dr. Srinarayana. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I was a research intern at the Universitat Politècnica de Catalunya, Barcelona between Feb '15 and Jun '15 as a part of the Semester Abraod Programme(SAP) at SASTRA University. At UPC I worked with Prof. Tomàs Aluja Banet at the [inLab](https://inlab.fib.upc.edu/en){:target="_blank"} working on learning analytics.  

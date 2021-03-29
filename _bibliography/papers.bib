@@ -1,70 +1,33 @@
 ---
 ---
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,}
+@inproceedings{10.1145/3360322.3360850,
+author = {Nagarathinam, Srinarayana and Muralidharan, Harihara Subrahmaniam and Vasan, Arunchandar and Sarangan, Venkatesh and Narayana, Sermisha and Sivasubramaniam, Anand},
+title = {One for All, All for One: A Scalable Decision-Making Framework for Demand Response with a District Cooling Plant},
+year = {2019},
+isbn = {9781450370059},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3360322.3360850},
+doi = {10.1145/3360322.3360850},
+abstract = {During demand response events, utility customers typically make decisions to reduce their own load independent of other customers. In the presence of district cooling with a centralized cooling plant, the control decisions of buildings and the district cooling plant become coupled, since the setpoints chosen by the cooling plant affect the consumption of the buildings and vice versa.While past works on demand response address control of building-level heating and cooling systems, control of such systems in the presence of district cooling has not received much attention. We consider the problem of minimizing the discomfort of buildings while meeting the target demand reduction. Specifically, we identify the optimal setpoints for the buildings and district cooling plant, even while obeying the non-linear, coupled thermodynamic constraints between the district cooling plant and buildings. We propose a novel solution strategy using domain knowledge that transforms the complex non-linear optimization problem to a series of quadratic programming which can be then solved conventionally.We validate the performance of the proposed strategy by comparing it with a combinatorial brute-force solution on a small data set. We also evaluate the performance of our strategy on a real-world data set of 416 buildings that are served by a district cooling plant. The results indicate that including the district plant in demand response and solving with the coupled constraints, allows the utility to meet higher target reductions for the same comfort levels. Also, the proposed solution strategy is both fast (at least 4x) and scalable (35x) when compared with conventional optimization solvers.},
+booktitle = {Proceedings of the 6th ACM International Conference on Systems for Energy-Efficient Buildings, Cities, and Transportation},
+pages = {277–286},
+numpages = {10},
+keywords = {demand response, Energy, modelling, optimization, district cooling},
+location = {New York, NY, USA},
+series = {BuildSys '19}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@@ARTICLE{10.3389/fmicb.2021.638561,
+  
+AUTHOR={Muralidharan, Harihara Subrahmaniam and Shah, Nidhi and Meisel, Jacquelyn S. and Pop, Mihai},   
+TITLE={Binnacle: Using Scaffolds to Improve the Contiguity and Quality of Metagenomic Bins},      
+JOURNAL={Frontiers in Microbiology},      
+VOLUME={12},      
+PAGES={346},     
+YEAR={2021},       
+URL={https://www.frontiersin.org/article/10.3389/fmicb.2021.638561},       
+DOI={10.3389/fmicb.2021.638561},      
+ISSN={1664-302X},   
+ABSTRACT={High-throughput sequencing has revolutionized the field of microbiology, however, reconstructing complete genomes of organisms from whole metagenomic shotgun sequencing data remains a challenge. Recovered genomes are often highly fragmented, due to uneven abundances of organisms, repeats within and across genomes, sequencing errors, and strain-level variation. To address the fragmented nature of metagenomic assemblies, scientists rely on a process called binning, which clusters together contigs inferred to originate from the same organism. Existing binning algorithms use oligonucleotide frequencies and contig abundance (coverage) within and across samples to group together contigs from the same organism. However, these algorithms often miss short contigs and contigs from regions with unusual coverage or DNA composition characteristics, such as mobile elements. Here, we propose that information from assembly graphs can assist current strategies for metagenomic binning. We use MetaCarvel, a metagenomic scaffolding tool, to construct assembly graphs where contigs are nodes and edges are inferred based on paired-end reads. We developed a tool, Binnacle, that extracts information from the assembly graphs and clusters scaffolds into comprehensive bins. Binnacle also provides wrapper scripts to integrate with existing binning methods. The Binnacle pipeline can be found on GitHub (<ext-link ext-link-type="uri" xlink:href="https://github.com/marbl/binnacle" xmlns:xlink="http://www.w3.org/1999/xlink">https://github.com/marbl/binnacle</ext-link>). We show that binning graph-based scaffolds, rather than contigs, improves the contiguity and quality of the resulting bins, and captures a broader set of the genes of the organisms being reconstructed.}
 }

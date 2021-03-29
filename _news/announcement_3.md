@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2020-07-13 00:00:00-0400
 inline: true
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Gave a talk of [PIRATE](https://www.youtube.com/watch?v=YytwmfCYLFY&ab_channel=ISCB){:target="_blank"}-Phage Identification fRom Assembly-graph varianT Elements at virutal [ISMB '20](https://www.iscb.org/ismb2020){:target="_blank"}.

@@ -1,7 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
-inline: true
+title: A long announcement with details
+date: 2018-08-16 00:00:00
+inline: True
 ---
 
-A simple inline announcement.
+Joined University of Maryland, College Park for graduate studies.
