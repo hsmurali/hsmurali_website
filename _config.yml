@@ -6,14 +6,14 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Harihara Subrahmaniam
 middle_name: 
 last_name: Muralidharan
-email: hsmurali@umd.com
+email: hsmurali@umd.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
-icon: #
+icon: 🌏 #
 url: # the base hostname & protocol for your site
 baseurl: #/al-folio # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
@@ -43,7 +43,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # -----------------------------------------------------------------------------
 
 github_username: hsmurali # your GitHub user name
-twitter_username: #Harihara_subrah # your Twitter handle
+twitter_username: Harihara_subrah # your Twitter handle
 linkedin_username: harihara-subrahmaniam-muralidharan-657a0888 # your LinkedIn user name
 scholar_userid: 0EfRBDYAAAAJ # your Google Scholar ID
 orcid_id: # your ORCID ID
