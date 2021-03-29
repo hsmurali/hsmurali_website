@@ -2,7 +2,6 @@
 
 A simple, clean, and responsive [Jekyll](https://jekyllrb.com/) theme for academics.
 If you like the theme, give it a star!
-My first commit
 
 ## Getting started
 
