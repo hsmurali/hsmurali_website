@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Harihara Subrahmaniam
 middle_name: 
 last_name: Muralidharan
-email: hsmurali@umd.edu
+email: hsmurali@cs.umd.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -58,7 +58,7 @@ wikidata_id: # your wikidata id
 
 contact_note: The best way to reach me would be through email (hsmurali@umd.edu)
 
-google_analytics: UA-XXXXXXXXX # out your google-analytics code
+google_analytics: UA-193638557-1 # out your google-analytics code
 panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 
 # -----------------------------------------------------------------------------
