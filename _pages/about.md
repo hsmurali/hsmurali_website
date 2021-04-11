@@ -8,6 +8,7 @@ profile:
   image: Hari-Pic-2.jpg
   address: >
     <p>3112 Brendan Iribe Center for Computer Science and Engineering</p>
+    <p> hsmurali AT cs DOT umd DOT edu</p>
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
