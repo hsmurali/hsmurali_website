@@ -5,7 +5,7 @@ permalink: /
 
 profile:
   align: right
-  image: Hari-3.jpg
+  image: Hari_3.jpg
   address: >
     <p> hsmurali AT cs DOT umd DOT edu</p>
 
