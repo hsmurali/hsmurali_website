@@ -313,7 +313,7 @@ footer.sticky-bottom {
     }
   }
   h2.year {
-    color: $grey-color-dark;
+    color: var(--global-theme-color);
     border-top: 1px solid $black-color;
     padding-top: 1rem;
     margin-top: 2rem;
