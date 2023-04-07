@@ -90,8 +90,8 @@ collections:
     output: true
     permalink: /projects/:path/
 
-news_scrollable: true
-news_limit: 
+news_scrollable: false
+news_limit: 5
 
 # -----------------------------------------------------------------------------
 # Jekyll settings

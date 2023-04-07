@@ -3,7 +3,7 @@
  ******************************************************************************/
  
 :root {
-  --global-bg-color: #{$white-color};
+  --global-bg-color: #{$grey-color-light};
   --global-text-color: #{$black-color};
   --global-theme-color: #{$blue-color};
   --global-hover-color: #{$blue-color};
@@ -24,7 +24,7 @@
 
 html[data-theme='dark'] {
   --global-bg-color: #{$grey-color-dark};
-  --global-text-color: #{$grey-color-light};
+  --global-text-color: #{$white-color};
   --global-theme-color: #{$yellow-color};
   --global-hover-color: #{$yellow-color};
   --global-footer-bg-color: #{$grey-color-light};
