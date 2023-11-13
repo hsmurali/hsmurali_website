@@ -306,6 +306,20 @@ footer.sticky-bottom {
     margin-top: 1em;
     margin-bottom: 1em;
   }
+  h2 {
+    margin-bottom: 1rem;
+    span {
+      font-size: 1.5rem;
+    }
+  }
+  h2.year {
+    color: var(--global-theme-color);
+    border-top: 1px solid $black-color;
+    padding-top: 1rem;
+    margin-top: 2rem;
+    margin-bottom: -2rem;
+    text-align: right;
+  }
   h4 {
     margin-bottom: 1rem;
     span {
